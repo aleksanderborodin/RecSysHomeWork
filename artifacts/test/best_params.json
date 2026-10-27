@@ -1,0 +1,33 @@
+{
+  "pop_recent": {
+    "window_days": 30
+  },
+  "knn": {
+    "k": 200,
+    "shrinkage": 10,
+    "source": "all"
+  },
+  "ials": {
+    "factors": 256,
+    "reg": 300.0,
+    "alpha": 50
+  },
+  "ease": {
+    "reg": 500,
+    "source": "all"
+  },
+  "fm": {
+    "feature_set": "ids+item+user",
+    "factors": 64,
+    "lr": 0.001,
+    "reg": 0.001,
+    "epochs": 30
+  },
+  "custom": {
+    "tau": null,
+    "alpha_neg": null,
+    "w_shelf": 0.3,
+    "half_life": 730,
+    "alpha_rev": 5
+  }
+}

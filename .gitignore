@@ -1,0 +1,36 @@
+# data and heavy outputs: never committed
+data/
+artifacts/*
+!artifacts/test/
+artifacts/test/*
+!artifacts/test/metrics.csv
+!artifacts/test/best_params.json
+*.parquet
+*.npz
+*.npy
+*.pt
+*.json.gz
+
+# environment
+.venv/
+venv/
+.env
+
+# caches and logs
+*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.cache/
+.mypy_cache/
+.ruff_cache/
+
+# editors and OS
+.vscode/
+.idea/
+.DS_Store
+
+# local working notes
+/PLAN.md
+/TASK.md
